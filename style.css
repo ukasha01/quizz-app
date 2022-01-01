@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 50%;
+    height: 480px;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(90deg, rgba(34, 32, 32, 1) 0%, rgba(28, 10, 10, 1) 0%, rgba(8, 8, 8, 1) 42%, rgba(253, 29, 29, 1) 74%);
+    border-radius: 10px;
+}
+
+.main>h1 {
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+    color: #4D71C7;
+}
+
+.main>.ques {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-bottom: 35px;
+    color: #4D71C7;
+}
+
+.main>.options {
+    margin-left: 150px;
+    margin-bottom: 10px;
+    color: #4d71C7;
+}
+
+
+.main>button {
+    margin-left: 270px;
+    margin-top: 40px;
+    width: 150px;
+    height: 30px;
+    background-color: #4D71C7;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+}
